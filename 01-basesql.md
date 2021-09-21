@@ -85,8 +85,13 @@ left join orderitems on orders.order_num=orderitems.order_num and orderitems.pro
 
 
 
-
-
+#### alter
+`alter table customers
+    add cust_o varchar(100);`
+    
+`alter table customers
+    drop cust_o;
+`
 
 
 
